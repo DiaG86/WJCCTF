@@ -1,0 +1,360 @@
+/*  
+Theme Name: Custom Theme
+Version: 1.0
+Description: Designed by <a href="http://www.customwebchoice.com">CustomWeb</a>.
+Author: CustomWeb
+Author URI: http://www.customwebchoice.com
+Description: A custom Wordpress theme by CustomWeb.
+*/
+body {
+    background:#fff;
+    color:#2c2c2c;
+    font-family:Lato,Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    font-size: 15px;
+    }
+    
+    #header1 {
+    background:url(http://wjcctf.com/wp-content/uploads/2017/11/wjcctf-logo-2.png) center top repeat-x;
+    height:181px;
+    margin:0 auto;
+    }
+    
+    
+    
+    #nav_bar {
+    background:url(images/nav_bg.png) center top repeat-x;
+    height:44px;
+    font-family:Oswald,Arial, Helvetica, sans-serif;
+    }
+    
+    #nav_bar ul {
+    list-style:none;
+    display:table;
+    text-transform:uppercase;
+    font-size:13px;
+    margin:0 auto;
+    padding:0;
+    }
+    
+    #nav_bar ul li {
+    display:table-cell;
+    float:left;
+    color:#FFF;
+    margin:0;
+    padding:11px;
+    }
+    
+    #nav_bar ul li a {
+    display:block;
+    text-decoration:none;
+    color:#FFF;
+    margin:0 auto;
+    height: 44px;
+    }
+    
+    #nav_bar ul li a:hover {
+    color:#e2e8a9;
+    }
+    
+    #menu-navigation li ul 
+        {display:none;
+        background: #2F3842;
+        border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        margin-top: -12px;
+        padding:0 10px 0 10px;
+        position: absolute;
+        text-align: left;
+        width:200px;
+            text-transform: uppercase;
+            font-size: 12px;
+            margin-left: -10px;
+    }
+    #menu-navigation li ul li{display:block; padding: 0;}
+    #menu-navigation li ul a {padding:8px 0;border-bottom:1px solid #87B358;text-transform:none;display: block; width: 200px; height: 20px !important;}
+    #menu-navigation li ul li:last-child a{border-bottom:0!important;}
+    #menu-navigation li:hover ul{display:block!important;}
+    
+    
+    .strong {
+    text-strong:1px 1px 1px #fff;
+    }
+    
+    #content1 {
+    background:url(images/mid_gradient.png) center bottom repeat-x;
+    padding-top:20px;
+    }
+    
+    #content1_inner {
+    height:387px;
+    background:url(images/mid_gradient.png) center bottom repeat-x;
+    padding-top:20px;
+    }
+    
+    #content2 {
+    width:1000px;
+    overflow:hidden;
+    box-shadow:0 0 20px #666;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    padding-bottom:30px;
+    background:#FFF;
+    margin:0 auto;
+    }
+    
+    #content2_inner {
+    width:1000px;
+    overflow:hidden;
+    background:#FFF;
+    box-shadow:0 0 20px #666;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    padding-bottom:30px;
+    padding-top:30px;
+    margin:-300px auto 0;
+    }
+    
+    .project {
+    display:block;
+    width:330px;
+    height:70px;
+    background:url(images/projects_btn.png) center top no-repeat;
+    float:left;
+    }
+    
+    .project:hover {
+    background:url(images/projects_btn.png) center bottom no-repeat;
+    }
+    
+    .survey {
+    display:block;
+    width:335px;
+    height:70px;
+    background:url(images/surveys_btn.png) center top no-repeat;
+    float:left;
+    }
+    
+    .survey:hover {
+    background:url(images/surveys_btn.png) center bottom no-repeat;
+    }
+    
+    .calendar {
+    display:block;
+    width:335px;
+    height:70px;
+    background:url(images/event_btn.png) center top no-repeat;
+    float:right;
+    }
+    
+    .calendar:hover {
+    background:url(images/event_btn.png) center bottom no-repeat;
+    }
+    
+    #footer2 {
+    text-align:center;
+    font-size:11px;
+    padding:20px 0;
+    }
+    
+    #footer2 a {
+    color:#999;
+    }
+    
+    p {
+    margin:0;
+    padding:10px 0 0!important;
+    }
+    
+    h1 {
+    color:#bc3d21;
+    margin:0;
+    padding:0;
+    
+    }
+    
+    h1 a {
+    color:#bc3d21;
+    text-decoration: none;
+    }
+    
+    .main a {
+        color:#811700;
+        text-decoration: none;
+    }
+    
+    .main a:hover {
+        color: #3b4d22;}
+    
+    .clearfloat {
+    clear:both;
+    }
+    
+    #social_links img {
+    float:left;
+    }
+    
+    #slide {
+    width:1000px;
+    height:362px;
+    overflow:hidden;
+    box-shadow:0 0 20px #666;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    margin:0 auto;
+    }
+    
+    #slide_inner {
+    width:1000px;
+    height:112px;
+    overflow:hidden;
+    box-shadow:0 0 20px #666;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    margin:0 auto;
+    }
+    
+    #copy {
+    width:440px;
+    float:left;
+    padding:15px 30px 30px;
+    }
+    
+    #copy_inner {
+    width:670px;
+    float:left;
+    min-height:210px;
+    padding:15px 30px 30px;
+    }
+    
+    .involved {
+    float:left;
+    margin-top:25px;
+    }
+    
+    #right {
+    float:right;
+    width:220px;
+    margin-top:15px;
+    border-left:2px solid #CCC;
+    padding:0 30px 0 15px;
+    }
+    
+    #right p {
+    font-size:11px;
+    }
+    
+    #right_inner {
+    float:right;
+    width:220px;
+    margin-top:15px;
+    font-size:11px;
+    padding:0 30px 0 15px;
+    }
+    
+    .project_inner {
+    display:block;
+    width:269px;
+    height:70px;
+    background:url(images/projects_inner.png) center top no-repeat;
+    float:right;
+    }
+    
+    .project_inner:hover {
+    background:url(images/projects_inner.png) center bottom no-repeat;
+    }
+    
+    .survey_inner {
+    display:block;
+    width:269px;
+    height:70px;
+    background:url(images/survey_inner.png) center top no-repeat;
+    float:right;
+    margin-top:20px;
+    }
+    
+    .survey_inner:hover {
+    background:url(images/survey_inner.png) center bottom no-repeat;
+    }
+    
+    .calendar_inner {
+    display:block;
+    width:269px;
+    height:70px;
+    background:url(images/calendar_inner.png) center top no-repeat;
+    float:right;
+    }
+    
+    .calendar_inner:hover {
+    background:url(images/calendar_inner.png) center bottom no-repeat;
+    }
+    
+    #copy p,#copy_inner p {
+    text-align:justify;
+    text-justify:inter-word;
+    font-size:15px;
+    }
+    
+    .aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+    .box404{background:#F0F0F0;padding:25PX 15px;}
+    .post{margin-bottom:40px;}
+    .home h1,.archive h1,.search h1{font-size:21px;}
+    .alignleft {display: inline;float: left;margin-right:20px;}
+    .alignright {display: inline;float: right;margin-left:20px;}
+    .sticky{border-top:1px dashed #CCC;border-bottom:1px dashed #CCC;margin: 0 0 30px;padding: 30px 0;}
+    .depth-2{padding-left:40px;}
+    .depth-3{padding-left:40px;}
+    .fn{font-weight:700;}
+    .main li{margin:0 0 5px;}
+    .main ol,.main ul{line-height:18px;margin:0 0 15px 30px;}
+    .main p{margin:0 0 15px;}
+    .menu-space{margin-right:1em;}
+    .meta{font-size:14px;font-style:italic;margin-top:25px;}
+    .metatext{padding-top:10px;}
+    .single .post,.page .post{line-height:24px;}
+    .form-allowed-tags{display:none;}
+    .widget{margin:0 0 30px;}
+    blockquote{color:#000;padding:0 0 0 20px;}
+    cite{font-size:inherit;font-style:normal;}
+    img{vertical-align:middle;border:0;padding:0;}
+    ol{text-align:justify;padding:0;}
+    ol#comments{list-style:none;border-bottom:1px dashed #CCC;}
+    
+    #full_inner {
+        padding: 15px 30px 30px;}
+        
+        .button {
+        background: none repeat scroll 0 0 #c65239 !important;
+        border-radius: 4px 4px 4px 4px !important;
+        cursor: pointer;
+        font-size: 14px !important;
+        padding: 10px 12px !important;
+    }
+    .button:hover {
+        background: none repeat scroll 0 0 #28313A !important;
+    }
+    
+    .main td {padding: 5px !important;}
+    .main ul li {list-style-type: disc;}
+    .main ol li {list-style-type:decimal;}
+    
+    .minutes li {list-style-type: none;
+    border-bottom: thin solid #CCC;
+    padding: 10px 0 10px 0;
+    }
+    
+    .minutes {
+        margin-top: 5px;
+    }
+    
+    .minutes a {
+        color:#811700;
+        text-decoration: none;}
+        
+    .min_date {
+    border-bottom: thin solid #CCC;
+    border-top: thin solid #CCC;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    }
