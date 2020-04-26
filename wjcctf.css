@@ -295,6 +295,11 @@ body {
     text-justify:inter-word;
     font-size:15px;
     }
+
+    .column {
+        float: left;
+        width: 33.33%;
+      }
     
     .aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto;}
     .box404{background:#F0F0F0;padding:25PX 15px;}
