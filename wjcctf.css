@@ -26,7 +26,7 @@ body {
     #nav_bar {
     background:url(images/nav_bg.png) center top repeat-x;
     height:44px;
-    font-family:Oswald,Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     #nav_bar ul {
@@ -41,7 +41,7 @@ body {
     #nav_bar ul li {
     display:table-cell;
     float:left;
-    color:#FFF;
+    color: black;
     margin:0;
     padding:11px;
     }
